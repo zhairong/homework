@@ -1,0 +1,9 @@
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 768M
+  instances: 1
+  domain: mybluemix.net
+  name: homework
+  host: homework
+  disk_quota: 1024M
+  buildpack: java_buildpack
